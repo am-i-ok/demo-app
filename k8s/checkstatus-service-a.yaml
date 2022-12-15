@@ -1,6 +1,6 @@
-apiVersion: amiok.io/v1alpha1
-kind: CheckStatus
-metadata:
-  name: service-a
-spec:
-  checkDefinitionRef: service-a
+#apiVersion: amiok.io/v1alpha1
+#kind: CheckStatus
+#metadata:
+#  name: service-a
+#spec:
+#  checkDefinitionRef: service-a
