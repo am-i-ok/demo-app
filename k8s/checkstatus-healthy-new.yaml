@@ -1,7 +1,7 @@
 apiVersion: amiok.io/v1alpha1
 kind: CheckStatus
 metadata:
-  name: demo-app-healthy
+  name: demo-app-healthy-new
   namespace: amiok
 spec:
-  checkDefinitionRef: demo app healthy
+  checkDefinitionRef: up
