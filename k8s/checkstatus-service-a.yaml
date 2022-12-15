@@ -2,6 +2,5 @@
 #kind: CheckStatus
 #metadata:
 #  name: checkstatus-service-a
-#  namespace: amiok
 #spec:
 #  checkDefinitionRef: service-a
