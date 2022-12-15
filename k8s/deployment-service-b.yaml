@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: demo-app
+  name: service-b
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: demo-app
+      app: service-b
   template:
     metadata:
       labels:
-        app: demo-app
+        app: service-b
     spec:
       containers:
-        - name: demo-app
+        - name: service-b
           image: itaicodefresh/amiok:ok
           ports:
             - containerPort: 8080
