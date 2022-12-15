@@ -1,7 +1,7 @@
-apiVersion: amiok.io/v1alpha1
-kind: CheckStatus
-metadata:
-  name: checkstatus-service-a
-  namespace: amiok
-spec:
-  checkDefinitionRef: service-a
+#apiVersion: amiok.io/v1alpha1
+#kind: CheckStatus
+#metadata:
+#  name: checkstatus-service-a
+#  namespace: amiok
+#spec:
+#  checkDefinitionRef: service-a
