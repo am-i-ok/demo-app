@@ -1,0 +1,7 @@
+apiVersion: amiok.io/v1alpha1
+kind: CheckStatus
+metadata:
+  name: demo-app-healthy
+  namespace: amiok
+spec:
+  checkDefinitionRef: demo app healthy
